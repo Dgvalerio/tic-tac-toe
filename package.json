@@ -1,10 +1,13 @@
 {
   "name": "tic-tac-toe",
   "version": "1.0.0",
-  "main": "index.js",
+  "main": "src/index.html",
   "repository": "https://github.com/Dgvalerio/tic-tac-toe.git",
   "author": "Davi Gonçalves Valério <al.davigvalerio@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "start": "live-server src/ --port=3000"
+  },
   "devDependencies": {
     "eslint": "^7.30.0",
     "eslint-config-airbnb-base": "^14.2.1",
